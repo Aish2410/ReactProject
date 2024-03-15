@@ -15,7 +15,7 @@
   
   4.Run the Application: Start the development server:
   npm start or
-  yarn start
+  yarn start or npm run dev
   
   5.Access the Application:
    Once the server is running, you can access the application by opening your web browser and navigating to http://localhost:3000.
