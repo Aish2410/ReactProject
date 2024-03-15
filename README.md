@@ -21,6 +21,16 @@
    Once the server is running, you can access the application by opening your web browser and navigating to http://localhost:3000.
    
 Interaction with the Website & Usage of the Web Application:
+The ERP System is designed to efficiently manage key aspects of a business, including products and orders. It consists of the following pages:
+
+Dashboard: Provides an overview of key metrics or features, with links for quick navigation to other pages.
+
+Products Management: Allows for the management of product listings, including functionalities to add, edit, and delete products.
+
+Orders Management: Facilitates viewing and handling of orders, including functionalities to view order details, update order status, and delete orders.
+
+Orders Calendar View (Optional): Implements a calendar view displaying orders based on their expected delivery dates, with the ability to view orders scheduled for a specific date.
+
 
 ![Dashboard](https://github.com/Aish2410/ReactProject/assets/77043096/37ca71f0-8b6d-4fa2-93e2-10bc8b1275df)
 
