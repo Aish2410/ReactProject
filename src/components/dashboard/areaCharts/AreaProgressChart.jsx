@@ -1,27 +1,27 @@
 const data = [
   {
     id: 1,
-    name: "Jeans",
+    name: "Smart Watches",
     percentValues: 70,
   },
   {
     id: 2,
-    name: "Shirts",
+    name: "Laptops",
     percentValues: 40,
   },
   {
     id: 3,
-    name: "Belts",
+    name: "Refrigerators",
     percentValues: 60,
   },
   {
     id: 4,
-    name: "Caps",
+    name: "Mobiles",
     percentValues: 80,
   },
   {
     id: 5,
-    name: "Others",
+    name: "HeadPhones",
     percentValues: 20,
   },
 ];

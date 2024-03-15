@@ -1,36 +1,33 @@
+import { Link } from "react-router-dom";
 import AreaCard from "./AreaCard";
 import "./AreaCards.scss";
 
 const AreaCards = () => {
   return (
     <section className="content-area-cards">
-      <AreaCard
-        colors={["#e4e8ef", "#475be8"]}
-        percentFillValue={80}
-        cardInfo={{
-          title: "Todays Sales",
-          value: "$20.4K",
-          text: "We have sold 123 items.",
-        }}
-      />
-      <AreaCard
-        colors={["#e4e8ef", "#4ce13f"]}
-        percentFillValue={50}
-        cardInfo={{
-          title: "Todays Revenue",
-          value: "$8.2K",
-          text: "Available to payout",
-        }}
-      />
-      <AreaCard
-        colors={["#e4e8ef", "#f29a2e"]}
-        percentFillValue={40}
-        cardInfo={{
-          title: "In Escrow",
-          value: "$18.2K",
-          text: "Available to payout",
-        }}
-      />
+      <Link to="/products">
+        <AreaCard
+          colors={["#e4e8ef", "#475be8"]}
+          percentFillValue={80} // Placeholder data
+          cardInfo={{
+            title: "Total Products", // Updated title
+            value: "500", // Placeholder value for total products
+            text: "Total products in stock", // Placeholder text
+          }}
+        />
+      </Link>
+
+      <Link to="/orders">
+        <AreaCard
+          colors={["#e4e8ef", "#4ce13f"]}
+          percentFillValue={50} // Placeholder data
+          cardInfo={{
+            title: "Total Orders", // Updated title
+            value: "200", // Placeholder value for total orders
+            text: "Total orders received", // Placeholder text
+          }}
+        />
+      </Link>
     </section>
   );
 };

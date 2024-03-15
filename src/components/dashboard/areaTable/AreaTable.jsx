@@ -1,4 +1,3 @@
-import AreaTableAction from "./AreaTableAction";
 import "./AreaTable.scss";
 
 const TABLE_HEADS = [
@@ -8,7 +7,6 @@ const TABLE_HEADS = [
   "Customer name",
   "Status",
   "Amount",
-  "Action",
 ];
 
 const TABLE_DATA = [
@@ -100,9 +98,6 @@ const AreaTable = () => {
                     </div>
                   </td>
                   <td>${dataItem.amount.toFixed(2)}</td>
-                  <td className="dt-cell-action">
-                    <AreaTableAction />
-                  </td>
                 </tr>
               );
             })}
