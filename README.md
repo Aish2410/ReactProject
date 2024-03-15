@@ -40,18 +40,18 @@ On the Products page, you can view, add, edit, and delete products.
 
 ![add products](https://github.com/Aish2410/ReactProject/assets/77043096/01ca09f2-f3d6-44e7-a288-66d8bd3d7d09)
 
+After clicking on Add Product/Edit Product a Box will popup for input and we can Add our product.Similarly delete function will delete the Record of that particular product.
+
 Viewing Product Information
 ![view products](https://github.com/Aish2410/ReactProject/assets/77043096/49ec7075-dd49-4f85-8d57-5f8aead8404c)
+
+After clicking on view product information,a window will pop-up displaying Product name,description of product,category,stock.
 
 On the Products page, you can see a list of products with details such as name, category, price, and stock quantity.
 
 ![Products](https://github.com/Aish2410/ReactProject/assets/77043096/d2aaa262-af89-4d56-9e2c-748d94be1f86)
 
-Adding a New Product
-
-![add products](https://github.com/Aish2410/ReactProject/assets/77043096/5335bc72-77a1-40d9-a3d2-eef8f28cc6ba)
-
-To add a new product, click on the "Add Product" button, fill in the required fields, and click "Save".
+Presenting a list of products with details such as name, category, price, and stock quantity in the Products Management page.
 
 
 ORDER PAGE
@@ -60,6 +60,7 @@ ORDER PAGE
 On the Orders page, you can view order details, update order status, and delete orders.
 
 Order Calender view![calendar View](https://github.com/Aish2410/ReactProject/assets/77043096/2cfa9b90-38ad-400b-ba09-e1642391e084)
+Showing a list of orders with details like order ID, customer name, order date, and status in the Orders Management page.
 
 You can view and display the order with expected delivery date by clicking a particular date on a calender
 
